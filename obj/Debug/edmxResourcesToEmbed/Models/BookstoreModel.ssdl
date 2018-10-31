@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book_Inventory">
+    <Key>
+      <PropertyRef Name="book_id" />
+    </Key>
+    <Property Name="book_id" Type="int" Nullable="false" />
+    <Property Name="book_title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="book_author" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="book_descreption" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="book_img" Type="image" />
+    <Property Name="category_id" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BookStore.dbo.Book_review' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Book_review">
+    <Key>
+      <PropertyRef Name="book_id" />
+      <PropertyRef Name="rating" />
+      <PropertyRef Name="user_name" />
+      <PropertyRef Name="review_date" />
+    </Key>
+    <Property Name="book_id" Type="int" Nullable="false" />
+    <Property Name="comment" Type="varchar" MaxLength="50" />
+    <Property Name="rating" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="review_date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="int" Nullable="false" />
+    <Property Name="category_name" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="order_details">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="city" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="date_of_purchase" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="payment_details">
+    <Key>
+      <PropertyRef Name="credit_username" />
+    </Key>
+    <Property Name="credit_username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="creditcard_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="cardtype" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="cvv_number" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="purchase_history">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="book_id" Type="int" Nullable="false" />
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="dateof_purchase" Type="date" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shopping_Cart">
+    <Key>
+      <PropertyRef Name="shoppingcartid" />
+    </Key>
+    <Property Name="shoppingcartid" Type="int" Nullable="false" />
+    <Property Name="book_id" Type="int" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="first_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="last_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="city" Type="nchar" MaxLength="10" />
+    <Property Name="role_id" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_book_id_to_book">
+    <End Role="Book_Inventory" Type="Self.Book_Inventory" Multiplicity="1" />
+    <End Role="Shopping_Cart" Type="Self.Shopping_Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book_Inventory">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="Shopping_Cart">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_book_purchase_history">
+    <End Role="Book_Inventory" Type="Self.Book_Inventory" Multiplicity="1" />
+    <End Role="purchase_history" Type="Self.purchase_history" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book_Inventory">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="purchase_history">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Book_store_categories">
+    <End Role="categories" Type="Self.categories" Multiplicity="0..1" />
+    <End Role="Book_Inventory" Type="Self.Book_Inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categories">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Book_Inventory">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_order_details_customer">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="order_details" Type="Self.order_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="order_details">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orderdetails_purchase_history">
+    <End Role="order_details" Type="Self.order_details" Multiplicity="1" />
+    <End Role="purchase_history" Type="Self.purchase_history" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="order_details">
+        <PropertyRef Name="order_id" />
+      </Principal>
+      <Dependent Role="purchase_history">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_payment_details_customer">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="payment_details" Type="Self.payment_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="payment_details">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_user_id_to_customer">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="Shopping_Cart" Type="Self.Shopping_Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Shopping_Cart">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_user_name">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="users1" Type="Self.users" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="users1">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BookStoreModelStoreContainer">
+    <EntitySet Name="Book_Inventory" EntityType="Self.Book_Inventory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order_details" EntityType="Self.order_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="payment_details" EntityType="Self.payment_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="purchase_history" EntityType="Self.purchase_history" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shopping_Cart" EntityType="Self.Shopping_Cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Book_review" EntityType="Self.Book_review" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Book_review].[book_id] AS [book_id], 
+    [Book_review].[comment] AS [comment], 
+    [Book_review].[rating] AS [rating], 
+    [Book_review].[user_name] AS [user_name], 
+    [Book_review].[review_date] AS [review_date]
+    FROM [dbo].[Book_review] AS [Book_review]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_book_id_to_book" Association="Self.FK_book_id_to_book">
+      <End Role="Book_Inventory" EntitySet="Book_Inventory" />
+      <End Role="Shopping_Cart" EntitySet="Shopping_Cart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_book_purchase_history" Association="Self.FK_book_purchase_history">
+      <End Role="Book_Inventory" EntitySet="Book_Inventory" />
+      <End Role="purchase_history" EntitySet="purchase_history" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Book_store_categories" Association="Self.FK_Book_store_categories">
+      <End Role="categories" EntitySet="categories" />
+      <End Role="Book_Inventory" EntitySet="Book_Inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_order_details_customer" Association="Self.FK_order_details_customer">
+      <End Role="users" EntitySet="users" />
+      <End Role="order_details" EntitySet="order_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orderdetails_purchase_history" Association="Self.FK_orderdetails_purchase_history">
+      <End Role="order_details" EntitySet="order_details" />
+      <End Role="purchase_history" EntitySet="purchase_history" />
+    </AssociationSet>
+    <AssociationSet Name="FK_payment_details_customer" Association="Self.FK_payment_details_customer">
+      <End Role="users" EntitySet="users" />
+      <End Role="payment_details" EntitySet="payment_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_user_id_to_customer" Association="Self.FK_user_id_to_customer">
+      <End Role="users" EntitySet="users" />
+      <End Role="Shopping_Cart" EntitySet="Shopping_Cart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_user_name" Association="Self.FK_user_name">
+      <End Role="users" EntitySet="users" />
+      <End Role="users1" EntitySet="users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

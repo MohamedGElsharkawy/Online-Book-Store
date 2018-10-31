@@ -1,0 +1,66 @@
+﻿@model online_Bookstore.Models.Book_Inventory
+
+@{
+    ViewBag.Title = "Show Details";
+}
+
+<h2>Show Details</h2>
+
+<div>
+    <h4>Book_Inventory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.book_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.book_author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.book_descreption)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_descreption)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.book_img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_img)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.category.category_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.category.category_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.book_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

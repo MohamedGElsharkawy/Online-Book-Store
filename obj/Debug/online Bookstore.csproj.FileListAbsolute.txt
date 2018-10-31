@@ -1,0 +1,164 @@
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\ApplicationInsights.config
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\csc.exe
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\vbc.exe
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\VBCSCompiler.exe
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\online Bookstore.dll.config
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\online Bookstore.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\online Bookstore.pdb
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Antlr3.Runtime.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\EntityFramework.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\EntityFramework.SqlServer.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.Web.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.ApplicationInsights.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Newtonsoft.Json.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Owin.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Helpers.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Mvc.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Optimization.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Razor.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.Deployment.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.Razor.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\WebGrease.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.Web.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.ApplicationInsights.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Helpers.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Mvc.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Optimization.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.Razor.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.Deployment.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\System.Web.WebPages.Razor.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Antlr3.Runtime.pdb
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Newtonsoft.Json.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\EntityFramework.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\EntityFramework.SqlServer.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\obj\Debug\online Bookstore.csprojResolveAssemblyReference.cache
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\obj\Debug\online Bookstore.dll
+c:\users\ebrahim elkhodary\documents\visual studio 2015\Projects\online Bookstore\online Bookstore\obj\Debug\online Bookstore.pdb
+D:\Downloadssss\online Bookstore\online Bookstore\obj\Debug\online Bookstore.dll
+D:\Downloadssss\online Bookstore\online Bookstore\obj\Debug\online Bookstore.pdb
+D:\Downloadssss\online Bookstore\online Bookstore\bin\ApplicationInsights.config
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\csc.exe
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\vbc.exe
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\VBCSCompiler.exe
+D:\Downloadssss\online Bookstore\online Bookstore\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloadssss\online Bookstore\online Bookstore\bin\online Bookstore.dll.config
+D:\Downloadssss\online Bookstore\online Bookstore\bin\online Bookstore.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\online Bookstore.pdb
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Antlr3.Runtime.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\EntityFramework.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\EntityFramework.SqlServer.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.DependencyCollector.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.Web.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.WindowsServer.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.ApplicationInsights.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Google.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Newtonsoft.Json.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Owin.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Helpers.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Mvc.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Optimization.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Razor.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.Deployment.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.Razor.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\WebGrease.dll
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.DependencyCollector.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.Web.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AI.WindowsServer.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.ApplicationInsights.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Helpers.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Mvc.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Optimization.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.Razor.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.Deployment.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\System.Web.WebPages.Razor.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Antlr3.Runtime.pdb
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Newtonsoft.Json.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\EntityFramework.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\EntityFramework.SqlServer.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Google.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Downloadssss\online Bookstore\online Bookstore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Downloadssss\online Bookstore\online Bookstore\obj\Debug\online Bookstore.csprojResolveAssemblyReference.cache
